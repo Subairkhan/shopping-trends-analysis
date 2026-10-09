@@ -105,3 +105,17 @@ The project also demonstrates practical skills in data manipulation, SQL analysi
 ---
 
 **Skills demonstrated:** Data Cleaning | Exploratory Data Analysis | SQL Querying | KPI Analysis | Excel Reporting | Data Visualization | Business Insights
+
+## Power BI Dashboard
+
+The interactive Power BI dashboard provides an overview of sales performance, customer demographics, product categories, and seasonal shopping trends.
+
+![Shopping Trends Dashboard](Shopping_Trends_Dashboard.png)
+
+**Dashboard Highlights**
+- Total Sales
+- Total Customers
+- Average Purchase Amount
+- Average Review Rating
+- Sales by Category and Season
+- Gender and Size Distribution
