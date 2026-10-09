@@ -93,10 +93,29 @@ Used Matplotlib and Seaborn to visualize category purchases, seasonal sales, pur
 
 ## Project Files
 
-- `Shopping_Trends_Python_Analysis(2).ipynb` — Python analysis and visualizations.
-- `shopping_trends_analysis.sql.txt` — SQL queries and business findings.
-- `Shopping_Trends_Excel_Analysis(4).xlsx` — Excel analysis workbook, including KPI analysis, pivot analysis, charts, and business insights.
+- `data/` — Shopping Trends dataset.
+- `python/` — Python notebook for data analysis and visualizations.
+- `sql/` — SQL queries used to answer business questions.
+- `Shopping Trends Analysis.pbix` — Power BI dashboard file.
+- `Shopping_Trends_Dashboard.png` — Dashboard preview image.
 
+## Power BI Dashboard
+
+The Power BI dashboard summarizes sales performance, customer
+demographics, product categories, and seasonal shopping trends.
+
+![Shopping Trends Dashboard](Shopping_Trends_Dashboard.png)
+
+**Dashboard Highlights**
+- Total Sales
+- Total Customers
+- Average Purchase Amount
+- Average Review Rating
+- Sales by Category and Season
+- Gender and Size Distribution
+
+**To explore the dashboard:** Download `Shopping Trends Analysis.pbix`
+from this repository and open it using Microsoft Power BI Desktop.
 ## Conclusion
 This project demonstrates an end-to-end approach to shopping data analysis using Python, SQL, and Excel. It combines data understanding, data quality checks, exploratory analysis, business queries, and visualization to identify patterns in customer purchasing behavior and product performance.
 
