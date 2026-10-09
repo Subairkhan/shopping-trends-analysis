@@ -95,9 +95,8 @@ Used Matplotlib and Seaborn to visualize category purchases, seasonal sales, pur
 
 data/ — Shopping Trends dataset.
 
-Python Analysis Notebook — Python analysis and visualizations.
-
-SQL Analysis — SQL queries and business analysis.
+- [Python Analysis Notebook](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/python/shopping_trends_analysis.ipynb) — Python analysis and visualizations.
+- [SQL Analysis](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/sql/shopping_trends_analysis.sql) — SQL queries and business analysis.
 
 Shopping Trends Analysis.pbix — Power BI dashboard file.
 
