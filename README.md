@@ -1,129 +1,76 @@
-# Shopping Trends Analysis
+# 🛍️ Shopping Trends Analysis
 
-## Project Overview
-This project analyzes customer shopping data to understand purchasing patterns, product category performance, seasonal sales, customer preferences, and spending behavior.
+## 📌 Project Overview
 
-The project uses **Python, SQL, and Excel** to explore the data, perform data quality checks, summarize business performance, and identify findings that can support better business decisions.
+This project analyzes shopping trends to understand customer purchasing behavior, product demand, seasonal sales patterns, and customer preferences. Python, SQL, Excel, and Power BI were used to explore the dataset, identify insights, and develop business recommendations.
 
-## Project Objectives
-- Understand customer purchasing patterns and preferences.
-- Compare sales across product categories and seasons.
-- Analyze customer demographics, sizes, locations, and purchase frequency.
-- Check data quality and prepare data for analysis.
-- Answer business questions using SQL queries and Python.
-- Present findings through Excel analysis, charts, and visualizations.
+## 🎯 Project Objectives
 
-## Tools and Technologies
-- **Python:** Pandas, NumPy
-- **Data Visualization:** Matplotlib, Seaborn
+- Understand customer demographics and shopping preferences.
+- Identify high-performing and low-performing product categories.
+- Compare purchase patterns across seasons.
+- Analyze customer purchasing behavior and spending patterns.
+- Present findings through data analysis and visualization.
+
+## 📂 Dataset Information
+
+- **Total Records:** 3,900
+- **Total Columns:** 18
+- **Domain:** Retail and E-commerce
+- **Data Includes:** Customer details, products, purchase amounts, seasons, reviews, discounts, payment methods, and purchase frequency.
+
+## 🛠️ Tools & Technologies
+
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn
 - **SQL:** MySQL
-- **Spreadsheet Analysis:** Microsoft Excel
-- **Development Environment:** Jupyter Notebook
+- **Excel:** Data review and analysis
+- **Power BI:** Interactive dashboard and visualization
 
-## Dataset Overview
-- **Total records:** 3,900
-- **Original columns:** 18
-- **Main data areas:** Customer demographics, purchased items, product categories, purchase amounts, locations, seasons, ratings, discounts, subscriptions, payment methods, and purchase frequency.
+## 🔍 Project Workflow
 
-The dataset contains customer and shopping-related information used to explore purchasing behavior.
+1. **Data Understanding:** Reviewed dataset structure, columns, and data types.
+2. **Data Quality Checks:** Checked missing values and examined data consistency.
+3. **Exploratory Data Analysis:** Analyzed customer demographics, product categories, seasons, and purchase behavior using Python.
+4. **SQL Analysis:** Used aggregations, subqueries, CTEs, and window functions to answer business questions.
+5. **Data Visualization:** Created charts and a Power BI dashboard to communicate key findings.
+6. **Business Recommendations:** Suggested actions based on the analysis results.
 
-## Project Workflow
+## 📊 Key Findings
 
-### 1. Data Understanding
-- Checked dataset dimensions, column names, data types, unique values, and numerical summaries.
-- Reviewed customer, product, and purchase-related information.
+- **Category Performance:** Clothing recorded the highest total purchase amount at $104,264.
+- **Seasonal Trends:** Fall had the highest total purchase amount at $60,018.
+- **Customer Preferences:** Medium (M) was the most frequently recorded size.
+- **Customer Demographics:** Male customers represented approximately 68% of the dataset.
+- **Discount Analysis:** Customers with discounts had a slightly lower average purchase amount than customers without discounts in this dataset.
+- **Subscription Analysis:** Subscription status was not associated with a higher average purchase amount in the analyzed results.
 
-### 2. Data Quality Assessment
-- Checked for missing values and duplicate records.
-- Validated important numerical ranges and categorical values.
-- Reviewed customer ID uniqueness and data consistency.
+## 💡 Business Recommendations
 
-### 3. Data Cleaning and Transformation
-- Created a working copy of the dataset in Python.
-- Removed duplicate rows where applicable.
-- Standardized column names.
-- Created additional analysis fields, including age groups and spending levels.
+- Prioritize inventory planning for high-demand categories such as Clothing.
+- Use seasonal sales patterns to support inventory and promotional planning.
+- Review lower-performing categories to identify opportunities for improvement.
+- Explore customer segments and purchasing frequency to plan targeted marketing.
+- Evaluate discount and subscription strategies using further analysis before making changes.
 
-### 4. Exploratory Data Analysis
-Analyzed customer demographics, product demand, category sales, seasonal performance, size preferences, location performance, purchase frequency, customer ratings, subscriptions, discounts, and payment methods.
+## 📈 Power BI Dashboard
 
-### 5. SQL Analysis
-Used SQL to answer business questions with:
-- Filtering, sorting, and aggregate functions
-- `GROUP BY` and `HAVING`
-- Conditional logic using `CASE`
-- String and numeric functions
-- Subqueries and Common Table Expressions (CTEs)
-- Window functions such as `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`
-- Data quality checks and category-wise, season-wise, and customer-related analysis
+The dashboard presents key shopping trends, category performance, customer patterns, and seasonal comparisons.
 
-### 6. Excel Analysis
-The workbook includes:
-- Raw data and a data dictionary
-- Value analysis and data quality checks
-- Cleaned data
-- KPI analysis
-- Pivot analysis
-- Charts and business insights
+![Shopping Trends Power BI Dashboard](https://raw.githubusercontent.com/Subairkhan/shopping-trends-analysis/main/Shopping_Trends_Dashboard.png)
 
-### 7. Visualization
-Used Matplotlib and Seaborn to visualize category purchases, seasonal sales, purchase amount distributions, age groups, subscription status, review ratings, and relationships between numerical variables.
+## 📁 Project Files
 
-## Key Findings
+- [Python Analysis Notebook](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/python/shopping_trends_analysis.ipynb)
+- [SQL Analysis](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/sql/shopping_trends_analysis.sql)
+- [Power BI Dashboard File](https://github.com/Subairkhan/shopping-trends-analysis/raw/refs/heads/main/Shopping%20Trends%20Analysis.pbix)
+- [Complete Project Repository](https://github.com/Subairkhan/shopping-trends-analysis)
 
-- **Category performance:** Clothing generated the highest total purchase amount at **$104,264**, while Outerwear generated the lowest at **$18,524**.
-- **Seasonal performance:** Fall recorded the highest total purchase amount at **$60,018**. Summer recorded the lowest at **$55,777**.
-- **Size preference:** M was the most frequently purchased size, with **1,755 orders** in the SQL analysis.
-- **Product demand:** Blouse had the highest purchase count at **171**, while Jeans had the lowest at **124**.
-- **Customer demographics:** Male customers represented approximately **68%** of the records, while female customers represented approximately **32%**.
-- **Discount analysis:** The average purchase amount was **$60.13** for orders without discounts and **$59.28** for orders with discounts.
-- **Subscription analysis:** The average purchase amount was **$59.87** for non-subscribed customers and **$59.49** for subscribed customers.
-- **Location performance:** Montana recorded the highest total purchase amount at **$5,784**, while Kansas recorded the lowest at **$3,437**.
+## 🌐 Portfolio
 
-*These findings describe the analyzed dataset and should not be treated as proof that a particular factor caused customer behavior.*
+Visit my [Data Analyst Portfolio Website](https://subairkhan.github.io/) to explore my project and skills.
 
-## Business Recommendations
+## 👨‍💻 Author
 
-1. **Review Clothing inventory:** Maintain suitable stock for Clothing because it has the highest total purchase amount.
-2. **Investigate Outerwear performance:** Review product demand, pricing, and customer preferences to identify opportunities for improvement.
-3. **Plan seasonal campaigns:** Compare seasonal performance and test targeted campaigns during lower-performing periods, particularly Summer.
-4. **Review discount effectiveness:** Compare discount campaigns using order value and other business measures before increasing discount spending.
-5. **Improve customer engagement:** Explore ways to engage subscribed customers and evaluate whether those efforts improve purchase behavior.
-6. **Monitor location performance:** Investigate differences in order counts and average purchase amounts across locations before deciding where to focus marketing efforts.
+**Subairkhan**  
+Aspiring Data Analyst | Python | SQL | Excel | Power BI | Tableau
 
-## Project Files
-
-data/ — Shopping Trends dataset.
-
-- [Python Analysis Notebook](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/python/shopping_trends_analysis.ipynb) — Python analysis and visualizations.
-- [SQL Analysis](https://github.com/Subairkhan/shopping-trends-analysis/blob/main/sql/shopping_trends_analysis.sql) — SQL queries and business analysis.
-
-Shopping Trends Analysis.pbix — Power BI dashboard file.
-
-Shopping_Trends_Dashboard.png — Dashboard preview image.
-
-## Conclusion
-
-This project demonstrates an end-to-end approach to shopping data analysis using Python, SQL, Excel, and Power BI. It combines data understanding, data quality checks, exploratory analysis, business queries, and visualization to identify patterns in customer purchasing behavior and product performance.
-
-The project also demonstrates practical skills in data manipulation, SQL analysis, dashboard development, reporting, and communicating data-based findings.
-
----
-
-**Skills demonstrated:** Data Cleaning | Exploratory Data Analysis | SQL Querying | KPI Analysis | Excel Reporting | Data Visualization | Business Insights
-
-## Power BI Dashboard
-
-The Power BI dashboard summarizes sales performance, customer demographics, product categories, and seasonal shopping trends.
-
-![Shopping Trends Dashboard](Shopping_Trends_Dashboard.png)
-
-**Dashboard Highlights**
-- Total Sales
-- Total Customers
-- Average Purchase Amount
-- Average Review Rating
-- Sales by Category and Season
-- Gender and Size Distribution
-
-**To explore the dashboard:** Download `Shopping Trends Analysis.pbix` from this repository and open it using Microsoft Power BI Desktop.
